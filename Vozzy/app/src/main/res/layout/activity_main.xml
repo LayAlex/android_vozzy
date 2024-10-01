@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#FFFFFF"
+    app:columnCount="3"
+    app:rowCount="12">
+
+    <Button
+        android:id="@+id/btn_cam_naves"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="К навес"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#ADD8E6"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="0"
+        app:layout_row="0"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_cam_ulica"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="К2 улица"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#ADD8E6"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="0"
+        app:layout_row="1"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_cam_master"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="К3 мастерская"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#ADD8E6"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="0"
+        app:layout_row="2"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_cam_ogorod"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="К4 огород"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#ADD8E6"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="0"
+        app:layout_row="3"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_cam_moto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="К5 мото"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#ADD8E6"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="0"
+        app:layout_row="4"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_cam_garage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        android:backgroundTint="#ADD8E6"
+        android:minHeight="40dp"
+        android:text="К6 гараж"
+        android:textSize="12sp"
+        app:layout_column="0"
+        app:layout_columnWeight="1"
+        app:layout_row="5" />
+
+    <Button
+        android:id="@+id/btn_perek_light"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        android:backgroundTint="#FFFF00"
+        android:minHeight="40dp"
+        android:text="Переключать со светом"
+        android:textSize="12sp"
+        app:layout_column="0"
+        app:layout_columnWeight="1"
+        app:layout_row="8" />
+
+    <Button
+        android:id="@+id/btn_perek_no_light"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Переключать без света"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFD700"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="0"
+        app:layout_row="7"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_light_naves"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Свет навес"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFFF00"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="0"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_light_ulica"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Свет улица"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFFF00"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="1"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_light_master"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Свет мастерская"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFFF00"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="2"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_light_ogorod"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Свет огород"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFFF00"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="3"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_light_moto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Свет мото"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFFF00"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="4"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_light_garage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Свет гараж"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFFF00"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="5"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_lights_on"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Вкл свет везде"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFFF00"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="6"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_lights_off"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Откл свет везде"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFD700"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="7"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_light_koridor_on"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Прожектор Вкл"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFFF00"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="8"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_light_koridor_off"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Прожектор Откл"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFD700"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="9"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_light_gostinaya_on"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Гостин Вкл"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFFF00"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="10"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_light_gostinaya_off"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Гостин Откл"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFD700"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="1"
+        app:layout_row="11"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_voz_alarm_on"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Вкл охрану Воз"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FFA500"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="2"
+        app:layout_row="0"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_voz_alarm_off"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Снять с охраны Воз"
+        android:textSize="12sp"
+        android:minHeight="40dp"
+        android:backgroundTint="#FF8C00"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        app:layout_column="2"
+        app:layout_row="1"
+        app:layout_columnWeight="1" />
+
+    <Button
+        android:id="@+id/btn_office_alarm_on"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        android:backgroundTint="#FFA500"
+        android:minHeight="40dp"
+        android:text="Вкл охрану Оф"
+        android:textSize="12sp"
+        app:layout_column="2"
+        app:layout_columnWeight="1"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/btn_office_alarm_off"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        android:backgroundTint="#FF8C00"
+        android:minHeight="40dp"
+        android:text="Снять с охраны Оф"
+        android:textSize="12sp"
+        app:layout_column="2"
+        app:layout_columnWeight="1"
+        app:layout_row="4" />
+
+    <Button
+        android:id="@+id/btn_sirena_call"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        android:backgroundTint="#FF0000"
+        android:minHeight="40dp"
+        android:text="Сирена 3 коротких вызова"
+        android:textSize="12sp"
+        app:layout_column="2"
+        app:layout_columnWeight="1"
+        app:layout_row="9" />
+
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@drawable/button_border"
+        android:backgroundTint="#FF0000"
+        android:minHeight="40dp"
+        android:text="Alarm светом"
+        android:textSize="12sp"
+        app:layout_column="2"
+        app:layout_columnWeight="1"
+        app:layout_row="8" />
+
+</androidx.gridlayout.widget.GridLayout>
